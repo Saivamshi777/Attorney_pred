@@ -37,11 +37,11 @@ data = {
     'CLAIM_AMOUNT_REQUESTED': [CLAIM_AMOUNT_REQUESTED],
     'Claim_Approval_Status': [Claim_Approval_Status],
     'SETTLEMENT_AMOUNT': [SETTLEMENT_AMOUNT],
-    'Accident_Severity_Moderate': [1 if Accident_Severity = 'Moderate'],
-    'Accident_Severity_Severe': [1 if Accident_Severity = 'Severe'],
-    'Policy_Type_Third-Party': [1 if Policy_Type = 'Third-Party'],
-    'Driving_Record_Major Offenses': [1 if Driving_Record = 'Major Offenses'],
-    'Driving_Record_Minor Offenses': [1 if Driving_Record = 'Minor Offenses']
+    'Accident_Severity_Moderate': [1 if Accident_Severity == 'Moderate'],
+    'Accident_Severity_Severe': [1 if Accident_Severity == 'Severe'],
+    'Policy_Type_Third-Party': [1 if Policy_Type == 'Third-Party'],
+    'Driving_Record_Major Offenses': [1 if Driving_Record == 'Major Offenses'],
+    'Driving_Record_Minor Offenses': [1 if Driving_Record == 'Minor Offenses']
 }
 
 
