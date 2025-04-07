@@ -46,7 +46,7 @@ data = {
 
 
 # Prepare input data
-input_data = pd.Dataframe(data,index = [0])
+input_data = pd.DataFrame(data,index = [0])
 
 input_data[["CLMAGE", "LOSS", "Claim_Amount_Requested", "Settlement_Amount"]] = scaler.transform(input_data[["CLMAGE", "LOSS", "Claim_Amount_Requested", "Settlement_Amount"]])
 
