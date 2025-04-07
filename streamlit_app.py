@@ -57,7 +57,7 @@ input_data[["CLMAGE", "LOSS", "Claim_Amount_Requested", "Settlement_Amount"]] = 
 if st.button("Show Result"):
     prediction = model.predict_proba(input_data)
     # Code to execute after button click
-    if survival_proba[0][1] > 0.5:
-        st.write("Survived")
+    if prediction[0][1] > 0.5:
+        st.write("Attorney Involved")
     else:
-        st.write("Not Survived")
+        st.write("Attorney not Involved")
