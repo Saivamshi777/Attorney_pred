@@ -11,8 +11,8 @@ with open("scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 # Streamlit UI
-st.title("Insurance Claim Prediction App")
-st.write("Enter the details below to predict claim approval.")
+st.title("Attorney Involment Predection")
+st.write("Enter the details below to predict Attorney Involment.")
 
 # User Inputs
 CLMSEX = st.selectbox("Claimant Sex", [0, 1])  # 0 = Female, 1 = Male
